@@ -1,4 +1,4 @@
-FROM python:2.7
+FROM python:3.6
 ADD requirements.txt /app/requirements.txt
 ADD ./test_celery/ /app/
 WORKDIR /app/
